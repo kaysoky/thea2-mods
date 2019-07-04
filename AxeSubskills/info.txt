@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Axe Subskills" Graphic="Axe.jpg" Visibility="0">
+
+<DB>DATABASE_DES_LOCALIZATION_Axe_Subskills.xml</DB>
+<DB>DATABASE_SUBSKILLS_CHALLENGES_OFFENCE_Axe_Subskills.xml</DB>
+<DB>DATABASE_PROCEDURAL_ITEM_DATA_Axe_Subskills.xml</DB>
+
+Adds additional subskills for 1H and 2H axes, which have a variety of triggers when the character is played to the front row.
+
+[list]
+  [*] 1H axes now grant a small gathering bonus.  Because they can chop trees and such.
+  [*] At the Elemental tier, axes have the Rend Armor ability, which destroys shields (and only shields) of an attacked target, plus horizontal splash.
+  [*] At the Legendary tier, axes have the Berserk ability, which increases a character's damage and speed upon getting hit.
+[/list]
+
+[list]
+  [*] 2H axes will also have the small gathering bonus.
+  [*] At the Elemental tier, axes have the Crippling Strike ability, which drastically lowers an enemy's damage after hitting them.
+  [*] At the Legendary tier, axes have the TIMBER! ability, which strings an additional melee strike after a killing blow.  This ability has a high strength multiplier.  The killing blow can potentially trigger more killing blows.  (This needs verification.)
+[/list]
+
+This mod does not modify any existing subskills and will only be incompatible with mods that modify the procedural generation of axes (DATABASE_PROCEDURAL_ITEM_DATA.xml).
+
+</ModInfo>
