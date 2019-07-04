@@ -1,0 +1,127 @@
+﻿<PROCEDURAL_ITEM_DATA>
+	<RAT-AXE_1H Animation="BloodyHit2" Sound="AttackAxe1H" SpeedStars="4" DamageStars="3" AdditionalSubskillsCount="2" IconPrefix="Axe1H">
+		<RelatedRecipe Value="ITEM_REC-AXE_1H"/>
+
+		<SubskillCollection EssenceQuality="Gray">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+		<SubskillCollection EssenceQuality="Essence">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<Subskill Value="SUBSKILL-AXE_DESTROY_SHIELDS"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<Subskill Value="SUBSKILL-AXE_DESTROY_SHIELDS"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<Subskill Value="SUBSKILL-AXE_DESTROY_SHIELDS"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+		<SubskillCollection EssenceQuality="Ancient">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<Subskill Value="SUBSKILL-AXE_INSPIRE_ON_HIT"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<Subskill Value="SUBSKILL-AXE_INSPIRE_ON_HIT"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<Subskill Value="SUBSKILL-AXE_INSPIRE_ON_HIT"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+
+	</RAT-AXE_1H>
+
+    <RAT-AXE_2H Animation="BloodyHit2" Sound="AttackAxe2H" SpeedStars="4" DamageStars="5" AdditionalSubskillsCount="2" IconPrefix="Axe2H">
+		<RelatedRecipe Value="ITEM_REC-AXE_2H"/>
+
+		<SubskillCollection EssenceQuality="Gray">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+		<SubskillCollection EssenceQuality="Essence">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<Subskill Value="SUBSKILL-AXE_OVERWHELM_ON_STRIKE"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<Subskill Value="SUBSKILL-AXE_OVERWHELM_ON_STRIKE"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<Subskill Value="SUBSKILL-AXE_OVERWHELM_ON_STRIKE"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+		<SubskillCollection EssenceQuality="Ancient">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<Subskill Value="SUBSKILL-AXE_KILLING_SPREE"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<Subskill Value="SUBSKILL-AXE_KILLING_SPREE"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+				<Subskill Value="SUBSKILL-AXE_KILLING_SPREE"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+        
+	</RAT-AXE_2H>
+</PROCEDURAL_ITEM_DATA>

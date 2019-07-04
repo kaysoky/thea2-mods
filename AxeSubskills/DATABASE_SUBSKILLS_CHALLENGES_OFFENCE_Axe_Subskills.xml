@@ -1,0 +1,161 @@
+﻿<SUBSKILLS_CHALLENGES>
+
+	<SUBSKILL-AXE_DESTROY_SHIELDS Delay="0.0" Animation="DestroyShield" Sound="SubskillDestroyShielding">
+		<DescriptionInfo Name="DES_SUBSKILL_AXE_DESTROY_SHIELDS" Description="DES_SUBSKILL_AXE_DESTROY_SHIELDS_DES" IconName="SubskillDestroyShielding"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_ATTACK" DamageIcon="TAG-DAMAGE_DESTROY_SHIELD" TargetIcon="TAG-TARGET_HORIZONTAL_MELEE_ENEMY" AttackInfo="{SCRIPT:SI_DestroyShielding}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="TRUE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="OnAttack"/>
+			<TriggerScript ScriptName="Tri_OnAttackFromMe"/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_MeleeTargeting"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+			<SecondaryScript ScriptName="STrg_MeleeHorizontalSplash"/>
+		</Targets>
+		<Activation ScriptName="Act_DestroyShielding"/>
+		<ChallengeType Value="TypePhysical"/>
+        <!-- NOTE: Attribute scaling is not possible with this script currently -->
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="ShieldDestroy" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="ShieldDestroy" AttributeFloatValue="10.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+			<SubskillAttribute Identifier="ShieldDestroy" AttributeFloatValue="20.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+			<SubskillAttribute Identifier="ShieldDestroy" AttributeFloatValue="25.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+			<SubskillAttribute Identifier="ShieldDestroy" AttributeFloatValue="45.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+			<SubskillAttribute Identifier="ShieldDestroy" AttributeFloatValue="60.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-AXE_DESTROY_SHIELDS>
+
+	<SUBSKILL-AXE_INSPIRE_ON_HIT Delay="0.0" Animation="Spell6" Sound="SubskillSwarmStrength">
+		<DescriptionInfo Name="DES_SUBSKILL_AXE_INSPIRE_ON_HIT" Description="DES_SUBSKILL_AXE_INSPIRE_ON_HIT_DES" IconName="SubskillDevouringRoar"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_DAMAGE" DamageIcon="TAG-DAMAGE_INSPIRE" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_Inspire}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="TRUE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="OnDamage"/>
+			<TriggerScript ScriptName="Tri_OnDamage"/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="Act_InspireEffect"/>
+		<ChallengeType Value="TypePhysical"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<MainAtt Amount="0.8" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="InspirePower" AttributeFloatValue="0.0"/>
+			<SubskillAttribute Identifier="InspireSpeed" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<MainAtt Amount="1.0" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="InspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="InspireSpeed" AttributeFloatValue="1.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+			<MainAtt Amount="1.2" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="InspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="InspireSpeed" AttributeFloatValue="1.1"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+			<MainAtt Amount="1.4" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="InspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="InspireSpeed" AttributeFloatValue="1.2"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+			<MainAtt Amount="1.6" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="InspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="InspireSpeed" AttributeFloatValue="1.3"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+			<MainAtt Amount="1.8" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="InspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="InspireSpeed" AttributeFloatValue="1.4"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-AXE_INSPIRE_ON_HIT>
+
+	<SUBSKILL-AXE_OVERWHELM_ON_STRIKE Delay="0.0" Animation="Spell4" Sound="SubskillOverwhelm">
+		<DescriptionInfo Name="DES_SUBSKILL_AXE_OVERWHELM_ON_STRIKE" Description="DES_SUBSKILL_AXE_OVERWHELM_ON_STRIKE_DES" IconName="SubskillOverwhelm"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_ATTACK" DamageIcon="TAG-DAMAGE_OVERWHELM" TargetIcon="TAG-TARGET_SINGLE_MELEE_ENEMY" AttackInfo="{SCRIPT:SI_UnInspire}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="TRUE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="OnAttack"/>
+			<TriggerScript ScriptName="Tri_OnAttackFromMe"/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_MeleeTargeting"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="Act_UnInspireEffect"/>
+		<ChallengeType Value="TypePhysical"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<MainAtt Amount="5.0" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="0.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="1.5"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<MainAtt Amount="7.0" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="2.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+			<MainAtt Amount="9.0" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="2.5"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+			<MainAtt Amount="11.0" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="3.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+			<MainAtt Amount="13.0" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="3.5"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+			<MainAtt Amount="15.0" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="4.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-AXE_OVERWHELM_ON_STRIKE>
+
+	<SUBSKILL-AXE_KILLING_SPREE Delay="0.0" Animation="Explosion2" Sound="AttackDefault">
+		<DescriptionInfo Name="DES_SUBSKILL_AXE_KILLING_SPREE" Description="DES_SUBSKILL_AXE_KILLING_SPREE_DES" IconName="SubskillExplodingDead"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_ENEMY_KILLED" DamageIcon="TAG-DAMAGE_NORMAL" TargetIcon="TAG-TARGET_SINGLE_MELEE_ENEMY" AttackInfo="{SCRIPT:SI_Damage}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="TRUE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="OnDamage"/>
+			<TriggerScript ScriptName="Tri_OnEnemyKilled"/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_MeleeTargeting"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="Act_Damage"/>
+		<ChallengeType Value="TypePhysical"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<MainAtt Amount="1.0" Tag="TAG-STRENGTH"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+			<MainAtt Amount="2.0" Tag="TAG-STRENGTH"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
+			<MainAtt Amount="3.0" Tag="TAG-STRENGTH"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
+			<MainAtt Amount="4.0" Tag="TAG-STRENGTH"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="120.0">
+			<MainAtt Amount="5.0" Tag="TAG-STRENGTH"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="150.0">
+			<MainAtt Amount="6.0" Tag="TAG-STRENGTH"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-AXE_KILLING_SPREE>
+
+</SUBSKILLS_CHALLENGES>
