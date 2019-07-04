@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Sword Subskills" Graphic="PommelStrike.png" Visibility="0">
+<ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Sword Subskills" Graphic="Sword.png" Visibility="0">
 
 <DB>DATABASE_DES_LOCALIZATION_Sword_Subskills.xml</DB>
 <DB>DATABASE_SUBSKILLS_CHALLENGES_OFFENCE_Sword_Subskills.xml</DB>
