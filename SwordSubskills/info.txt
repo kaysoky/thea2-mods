@@ -6,19 +6,20 @@
 <DB>DATABASE_SUBSKILLS_CHALLENGES_OFFENCE_Sword_Subskills.xml</DB>
 <DB>DATABASE_PROCEDURAL_ITEM_DATA_Sword_Subskills.xml</DB>
 
-Adds additional subskills for 1H and 2H swords, which trigger on playing the character to the front row.
+Adds additional subskills for 1H and 2H swords, which have a variety of triggers when the character is played to the front row.
 
 [list]
-  [*] 1H swords gain the Pommel Strike ability, which delays the closest enemy.
-  [*] At the Elemental tier, swords will have the Defensive Stance ability, which causes the character to gain shields after being attacked.
+  [*] 1H swords gain the Pommel Strike ability, which delays the closest enemy on play.
+  [*] At the Elemental tier, swords will have the Defensive Stance ability, which causes the character to gain shields after being attacked.  This acts like flat damage reduction, although large hits may cause HP loss or death if the character's HP/Shield pool is not high enough.
   [*] At the Legendary tier, swords will have the Sword Wall ability, which grants all allies shields upon being played.
 [/list]
 
 [list]
   [*] 2H swords will also have the Pommel Strike ability, but with higher delay values and horizontal splash.
-  [*] At the Elemental tier, swords will have the Warding Swings ability, which decreases the power of the closest enemy, plus horizontal splash.
-  [*] At the Legendary tier, swords will have the Flowing Strikes ability, which drains power from hit enemies, and increases your own.
+  [*] At the Elemental tier, swords will have the Warding Swings ability, which decreases the power of the closest enemy on play, plus horizontal splash.
+  [*] At the Legendary tier, swords will have the Flowing Strikes ability, which drains power from hit enemies, and increases your own.  This draining effect has horizontal splash.
 [/list]
 
+This mod does not modify any existing subskills and will only be incompatible with mods that modify the procedural generation of swords (DATABASE_PROCEDURAL_ITEM_DATA.xml).
 
 </ModInfo>
