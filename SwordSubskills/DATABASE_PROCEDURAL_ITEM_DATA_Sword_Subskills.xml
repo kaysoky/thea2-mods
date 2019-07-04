@@ -42,16 +42,19 @@
 		<SubskillCollection EssenceQuality="Ancient">
 			<SubskillEssenceType>
 				<Subskill Value="SUBSKILL-1H_SWORD_STUN_ON_PLAY"/>
+				<Subskill Value="SUBSKILL-SWORD_WALL"/>
 				<EssenceType Value="TAG-ESSENCE_STONE"/>
 				<EssenceType Value="TAG-ESSENCE_METAL"/>
 			</SubskillEssenceType>
 			<SubskillEssenceType>
 				<Subskill Value="SUBSKILL-1H_SWORD_STUN_ON_PLAY"/>
+				<Subskill Value="SUBSKILL-SWORD_WALL"/>
 				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
 				<EssenceType Value="TAG-ESSENCE_WOOD"/>
 			</SubskillEssenceType>
 			<SubskillEssenceType>
 				<Subskill Value="SUBSKILL-1H_SWORD_STUN_ON_PLAY"/>
+				<Subskill Value="SUBSKILL-SWORD_WALL"/>
 				<EssenceType Value="TAG-ESSENCE_GEM"/>
 				<EssenceType Value="TAG-ESSENCE_BONE"/>
 			</SubskillEssenceType>
