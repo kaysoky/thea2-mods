@@ -1,0 +1,109 @@
+﻿<SUBSKILLS_CHALLENGES>
+
+	<SUBSKILL-1H_SWORD_STUN_ON_PLAY Delay="0.0" Animation="Headbutt" Sound="SubskillHeadbutt">
+		<DescriptionInfo Name="DES_SUBSKILL_SWORD_STUN_ON_PLAY" Description="DES_SUBSKILL_SWORD_STUN_ON_PLAY_DES" IconName="SubskillHeadbutt"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_CARD_SELF_PLAY" DamageIcon="TAG-DAMAGE_INCREASES_DELAY" TargetIcon="TAG-TARGET_SINGLE_MELEE_ENEMY" AttackInfo="{SCRIPT:SI_Stun}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="TRUE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="OnCardPlay"/>
+			<TriggerScript ScriptName="Tri_OnOwnEnterBf"/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_MeleeTargeting"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="Act_Stun"/>
+		<ChallengeType Value="TypePhysical"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="0.5"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="3.0">
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="1.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="5.0">
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="1.5"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="10.0">
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="2.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="25.0">
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="2.5"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="50.0">
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="3.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-1H_SWORD_STUN_ON_PLAY>
+    
+	<SUBSKILL-2H_SWORD_STUN_ON_PLAY Delay="0.0" Animation="Headbutt" Sound="SubskillHeadbutt">
+		<DescriptionInfo Name="DES_SUBSKILL_SWORD_STUN_ON_PLAY" Description="DES_SUBSKILL_SWORD_STUN_ON_PLAY_DES" IconName="SubskillHeadbutt"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_CARD_SELF_PLAY" DamageIcon="TAG-DAMAGE_INCREASES_DELAY" TargetIcon="TAG-TARGET_SINGLE_MELEE_ENEMY" AttackInfo="{SCRIPT:SI_Stun}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="TRUE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="OnCardPlay"/>
+			<TriggerScript ScriptName="Tri_OnOwnEnterBf"/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_MeleeTargeting"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+			<SecondaryScript ScriptName="STrg_MeleeHorizontalSplash"/>
+		</Targets>
+		<Activation ScriptName="Act_Stun"/>
+		<ChallengeType Value="TypePhysical"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="1.5"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="6.0">
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="2.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="10.0">
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="2.5"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="20.0">
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="3.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="45.0">
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="3.5"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="80.0">
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="4.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-2H_SWORD_STUN_ON_PLAY>
+
+	<SUBSKILL-SWORD_DEFENSIVE_STANCE Delay="0.0" Animation="ShieldBonus" Sound="SubskillAddShielding">
+		<DescriptionInfo Name="DES_SUBSKILL_SWORD_DEFENSIVE_STANCE" Description="DES_SUBSKILL_SWORD_DEFENSIVE_STANCE_DES" IconName="SubskillProtectingOthers"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_DAMAGE" DamageIcon="TAG-DAMAGE_SHIELD" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_ShieldUpImproved}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="TRUE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="OnDamage"/>
+			<TriggerScript ScriptName="Tri_OnDamage"/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="Act_AddShieldingImproved"/>
+		<ChallengeType Value="TypePhysical"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<MainAtt Amount="0.0" Tag="TAG-CA_SHIELD"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<MainAtt Amount="0.1" Tag="TAG-CA_SHIELD"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+			<MainAtt Amount="0.1" Tag="TAG-CA_SHIELD"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="9.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+			<MainAtt Amount="0.1" Tag="TAG-CA_SHIELD"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="12.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+			<MainAtt Amount="0.1" Tag="TAG-CA_SHIELD"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="15.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+			<MainAtt Amount="0.1" Tag="TAG-CA_SHIELD"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="18.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-SWORD_DEFENSIVE_STANCE>
+
+</SUBSKILLS_CHALLENGES>

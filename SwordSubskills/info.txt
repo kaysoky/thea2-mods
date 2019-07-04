@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Sword Subskills" Graphic="Sword.png" Visibility="2">
+
+<DB>DATABASE_DES_LOCALIZATION_Sword_Subskills.xml</DB>
+<DB>DATABASE_SUBSKILLS_CHALLENGES_OFFENCE_Sword_Subskills.xml</DB>
+<DB>DATABASE_PROCEDURAL_ITEM_DATA_Sword_Subskills.xml</DB>
+
+Adds additional subskills for 1H and 2H swords, which trigger on playing the character to the front row.
+
+[list]
+  [*] 1H swords gain the Pommel Strike ability, which delays the closest enemy.
+  [*] At the Elemental tier, swords will have the Defensive Stance ability, which causes the character to gain shields after being attacked.
+  [*] At the Legendary tier, swords will have the Sword Wall ability, which grants all allies shields upon being played.
+[/list]
+
+[list]
+  [*] 2H swords will also have the Pommel Strike ability, but with higher delay values.
+  [*] At the Elemental tier, swords will have the Overwhelm ability, which decreases the power of the closest enemy, plus horizontal splash.
+  [*] At the Legendary tier, swords will have the Flowing Strikes ability, which drains power from hit enemies, and increases your own.
+[/list]
+
+
+</ModInfo>

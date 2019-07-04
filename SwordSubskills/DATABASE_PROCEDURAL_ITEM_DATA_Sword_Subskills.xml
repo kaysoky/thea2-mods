@@ -1,0 +1,118 @@
+﻿<PROCEDURAL_ITEM_DATA>
+	<RAT-SWORD_1H Animation="Slash1" Sound="AttackSword1H" SpeedStars="5" DamageStars="1" AdditionalSubskillsCount="2" IconPrefix="Sword1H" >
+		<RelatedRecipe Value="ITEM_REC-SWORD_1H"/>
+
+		<SubskillCollection EssenceQuality="Gray">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-1H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-1H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-1H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+		<SubskillCollection EssenceQuality="Essence">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-1H_SWORD_STUN_ON_PLAY"/>
+				<Subskill Value="SUBSKILL-SWORD_DEFENSIVE_STANCE"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-1H_SWORD_STUN_ON_PLAY"/>
+				<Subskill Value="SUBSKILL-SWORD_DEFENSIVE_STANCE"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-1H_SWORD_STUN_ON_PLAY"/>
+				<Subskill Value="SUBSKILL-SWORD_DEFENSIVE_STANCE"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+		<SubskillCollection EssenceQuality="Ancient">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-1H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-1H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-1H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+
+	</RAT-SWORD_1H>
+
+	<RAT-SWORD_2H Animation="Slash1" Sound="AttackSword2H" SpeedStars="4" DamageStars="3" AdditionalSubskillsCount="2" IconPrefix="Sword2H">
+		<RelatedRecipe Value="ITEM_REC-SWORD_2H"/>
+
+		<SubskillCollection EssenceQuality="Gray">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-2H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-2H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-2H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+		<SubskillCollection EssenceQuality="Essence">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-2H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-2H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-2H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+		<SubskillCollection EssenceQuality="Ancient">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-2H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-2H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-2H_SWORD_STUN_ON_PLAY"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+        
+	</RAT-SWORD_2H>
+</PROCEDURAL_ITEM_DATA>
