@@ -3,6 +3,7 @@
 
 # Included in any Thea installation.
 /ExampleMod/
+/OverrideExampleMod/
 
 # Generated file from uploading to Steam workshop.
 */modid.txt
