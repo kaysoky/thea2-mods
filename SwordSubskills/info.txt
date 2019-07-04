@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Sword Subskills" Graphic="PommelStrike.png" Visibility="2">
+<ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Sword Subskills" Graphic="PommelStrike.png" Visibility="0">
 
 <DB>DATABASE_DES_LOCALIZATION_Sword_Subskills.xml</DB>
 <DB>DATABASE_SUBSKILLS_CHALLENGES_OFFENCE_Sword_Subskills.xml</DB>
@@ -16,7 +16,7 @@ Adds additional subskills for 1H and 2H swords, which trigger on playing the cha
 
 [list]
   [*] 2H swords will also have the Pommel Strike ability, but with higher delay values and horizontal splash.
-  [*] At the Elemental tier, swords will have the Overwhelm ability, which decreases the power of the closest enemy, plus horizontal splash.
+  [*] At the Elemental tier, swords will have the Warding Swings ability, which decreases the power of the closest enemy, plus horizontal splash.
   [*] At the Legendary tier, swords will have the Flowing Strikes ability, which drains power from hit enemies, and increases your own.
 [/list]
 

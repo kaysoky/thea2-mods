@@ -191,4 +191,50 @@
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-SWORD_OVERWHELM_ON_PLAY>
 
+	<SUBSKILL-SWORD_DRAIN_VIGOUR Delay="0.0" Animation="DrainVigour" Sound="SubskillVigourDrain">
+		<DescriptionInfo Name="DES_SUBSKILL_SWORD_DRAIN_VIGOUR" Description="DES_SUBSKILL_SWORD_DRAIN_VIGOUR_DES" IconName="SubskillVigourDrain"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_ATTACK" DamageIcon="TAG-DAMAGE_DRAIN_CA_1_CA_2" TargetIcon="TAG-TARGET_HORIZONTAL_MELEE_ENEMY" AttackInfo="{SCRIPT:SI_UnInspire}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="TRUE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="OnAttack"/>
+			<TriggerScript ScriptName="Tri_OnAttackFromMe"/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_MeleeTargeting"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+			<SecondaryScript ScriptName="STrg_HorizontalSplash"/>
+		</Targets>
+		<Activation ScriptName="Act_DrainCA"/>
+		<ChallengeType Value="TypePhysical"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<MainAtt Amount="0.5" Tag="TAG-WITS"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="5.0">
+			<MainAtt Amount="0.5" Tag="TAG-WITS"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="9.0">
+			<MainAtt Amount="0.6" Tag="TAG-WITS"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="19.0">
+			<MainAtt Amount="0.7" Tag="TAG-WITS"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="39.0">
+			<MainAtt Amount="0.8" Tag="TAG-WITS"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="89.0">
+			<MainAtt Amount="0.9" Tag="TAG-WITS"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-SWORD_DRAIN_VIGOUR>
+
 </SUBSKILLS_CHALLENGES>
