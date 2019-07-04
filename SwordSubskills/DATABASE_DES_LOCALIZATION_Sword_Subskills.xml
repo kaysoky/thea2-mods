@@ -5,7 +5,7 @@
 		<Entry Key="DES_SUBSKILL_SWORD_STUN_ON_PLAY_DES" Val="A surprise hit with the sword pommel on a single target, increasing their Delay."/>
 
         <Entry Key="DES_SUBSKILL_SWORD_DEFENSIVE_STANCE" Val="Defensive Stance"/>
-		<Entry Key="DES_SUBSKILL_SWORD_DEFENSIVE_STANCE_DES" Val="Focus on defense and increase your shields after being hit.  Shielding bonus is equal to 10% of the character's own shielding."/>
+		<Entry Key="DES_SUBSKILL_SWORD_DEFENSIVE_STANCE_DES" Val="Focus on defense and increase your shields after being hit.  Shielding bonus is equal to 40% of the character's Perception."/>
 
     </LOC_LIBRARY-EN_HOAGIE_SWORDS>
 </DATABASE_DES_LOCALIZATION-NO_HSH>
