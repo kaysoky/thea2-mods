@@ -32,10 +32,10 @@
 			<SubskillAttribute Identifier="Stun" AttributeFloatValue="3.0"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-1H_SWORD_STUN_ON_PLAY>
-    
+
 	<SUBSKILL-2H_SWORD_STUN_ON_PLAY Delay="0.0" Animation="Headbutt" Sound="SubskillHeadbutt">
 		<DescriptionInfo Name="DES_SUBSKILL_SWORD_STUN_ON_PLAY" Description="DES_SUBSKILL_SWORD_STUN_ON_PLAY_DES" IconName="SubskillHeadbutt"/>
-		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_CARD_SELF_PLAY" DamageIcon="TAG-DAMAGE_INCREASES_DELAY" TargetIcon="TAG-TARGET_SINGLE_MELEE_ENEMY" AttackInfo="{SCRIPT:SI_Stun}"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_CARD_SELF_PLAY" DamageIcon="TAG-DAMAGE_INCREASES_DELAY" TargetIcon="TAG-TARGET_HORIZONTAL_MELEE_ENEMY" AttackInfo="{SCRIPT:SI_Stun}"/>
 		<Trigger Priority="0" RequiredToBeInFrontline="TRUE" RequiredToBeInBackline="FALSE">
 			<TriggerGroup Value="OnCardPlay"/>
 			<TriggerScript ScriptName="Tri_OnOwnEnterBf"/>
@@ -144,5 +144,51 @@
 			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="20.0"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-SWORD_WALL>
+
+	<SUBSKILL-SWORD_OVERWHELM_ON_PLAY Delay="0.0" Animation="Spell4" Sound="SubskillOverwhelm">
+		<DescriptionInfo Name="DES_SUBSKILL_SWORD_OVERWHELM_ON_PLAY" Description="DES_SUBSKILL_SWORD_OVERWHELM_ON_PLAY_DES" IconName="SubskillOverwhelm"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_CARD_SELF_PLAY" DamageIcon="TAG-DAMAGE_OVERWHELM" TargetIcon="TAG-TARGET_HORIZONTAL_MELEE_ENEMY" AttackInfo="{SCRIPT:SI_UnInspire}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="TRUE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="OnCardPlay"/>
+			<TriggerScript ScriptName="Tri_OnOwnEnterBf"/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_MeleeTargeting"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+			<SecondaryScript ScriptName="STrg_HorizontalSplash"/>
+		</Targets>
+		<Activation ScriptName="Act_UnInspireEffect"/>
+		<ChallengeType Value="TypePhysical"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<MainAtt Amount="0.0" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="0.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="1.5"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<MainAtt Amount="0.1" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="2.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+			<MainAtt Amount="0.2" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="2.5"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+			<MainAtt Amount="0.3" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="3.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+			<MainAtt Amount="0.4" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="3.5"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+			<MainAtt Amount="0.5" Tag="TAG-STRENGTH"/>
+			<SubskillAttribute Identifier="UnInspirePower" AttributeFloatValue="1.0"/>
+			<SubskillAttribute Identifier="UnInspireSpeed" AttributeFloatValue="4.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-SWORD_OVERWHELM_ON_PLAY>
 
 </SUBSKILLS_CHALLENGES>

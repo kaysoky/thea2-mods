@@ -10,5 +10,8 @@
         <Entry Key="DES_SUBSKILL_SWORD_WALL" Val="Sword Wall"/>
 		<Entry Key="DES_SUBSKILL_SWORD_WALL_DES" Val="Focus on defense and increase the shields of all allies on the battlefield upon being played.  Shielding bonus is equal to 5% of the character's current shielding."/>
 
+        <Entry Key="DES_SUBSKILL_SWORD_OVERWHELM_ON_PLAY" Val="Warding Swings"/>
+		<Entry Key="DES_SUBSKILL_SWORD_OVERWHELM_ON_PLAY_DES" Val="Wide swings of this weapon will check nearby enemies, lowering their power and speed."/>
+
     </LOC_LIBRARY-EN_HOAGIE_SWORDS>
 </DATABASE_DES_LOCALIZATION-NO_HSH>
