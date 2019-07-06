@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Club Subskills" Graphic="Club.jpg" Visibility="0">
+
+<DB>DATABASE_DES_LOCALIZATION_Club_Subskills.xml</DB>
+<DB>DATABASE_SUBSKILLS_CHALLENGES_OFFENCE_Club_Subskills.xml</DB>
+<DB>DATABASE_PROCEDURAL_ITEM_DATA_Club_Subskills.xml</DB>
+
+Adds additional subskills for 1H and 2H clubs, which have a variety of triggers when the character is played to the front row.
+
+[list]
+  [*] 1H clubs now grant a small crafting bonus.  Because clubs sometimes look like hammers and may be used as such.
+  [*] At the Elemental tier, clubs have the Redirect Attack ability, which lets the player perform a double-leeching attack on an ally each time the club wielder gets attacked.
+  [*] At the Legendary tier, clubs have the Destructive Entrance ability, which "summons" (i.e. knocks over) an obstacle to the melee row upon being played.  The obstacle will not deal damage, but will have a decent amount of HP.
+[/list]
+
+[list]
+  [*] 2H clubs will also have the small crafting bonus.
+  [*] At the Elemental tier, clubs have the Aftershocks ability, which damages everyone on the battlefield after each attack, including allies.
+  [*] At the Legendary tier, clubs have the Gratuitous Violence ability, which inspires all allies after landing a killing blow.
+[/list]
+
+This mod does not modify any existing subskills and will only be incompatible with mods that modify the procedural generation of clubs (DATABASE_PROCEDURAL_ITEM_DATA.xml).
+
+</ModInfo>
