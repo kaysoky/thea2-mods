@@ -14,22 +14,22 @@
 		<Activation ScriptName="Act_Stun"/>
 		<ChallengeType Value="TypePhysical"/>
 		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="0.5"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="0.8"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="1" PowerLevel="3.0">
 			<SubskillAttribute Identifier="Stun" AttributeFloatValue="1.0"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="2" PowerLevel="5.0">
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="1.5"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="1.2"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="3" PowerLevel="10.0">
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="2.0"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="1.4"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="4" PowerLevel="25.0">
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="2.5"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="1.6"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="5" PowerLevel="50.0">
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="3.0"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="1.8"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-1H_SWORD_STUN_ON_PLAY>
 
@@ -48,22 +48,22 @@
 		<Activation ScriptName="Act_Stun"/>
 		<ChallengeType Value="TypePhysical"/>
 		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="1.5"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="0.95"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="1" PowerLevel="6.0">
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="2.0"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="1.2"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="2" PowerLevel="10.0">
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="2.5"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="1.45"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="3" PowerLevel="20.0">
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="3.0"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="1.7"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="4" PowerLevel="45.0">
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="3.5"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="1.95"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="5" PowerLevel="80.0">
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="4.0"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="2.2"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-2H_SWORD_STUN_ON_PLAY>
 
