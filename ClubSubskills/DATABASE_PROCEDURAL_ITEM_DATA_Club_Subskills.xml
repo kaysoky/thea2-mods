@@ -1,0 +1,127 @@
+﻿<PROCEDURAL_ITEM_DATA>
+    <RAT-CLUB_1H Animation="BloodyHit5" Sound="AttackClub1H" SpeedStars="2" DamageStars="1" AdditionalSubskillsCount="0" IconPrefix="Club1H">
+		<RelatedRecipe Value="ITEM_REC-CLUB_1H"/>
+
+		<SubskillCollection EssenceQuality="Gray">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+		<SubskillCollection EssenceQuality="Essence">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<Subskill Value="SUBSKILL-CLUB_REDIRECT_ATTACK"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<Subskill Value="SUBSKILL-CLUB_REDIRECT_ATTACK"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<Subskill Value="SUBSKILL-CLUB_REDIRECT_ATTACK"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+		<SubskillCollection EssenceQuality="Ancient">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<Subskill Value="SUBSKILL-CLUB_SUMMON_HEALTH_TANK"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<Subskill Value="SUBSKILL-CLUB_SUMMON_HEALTH_TANK"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<Subskill Value="SUBSKILL-CLUB_SUMMON_HEALTH_TANK"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+
+	</RAT-CLUB_1H>
+
+    <RAT-CLUB_2H Animation="BloodyHit5" Sound="AttackClub2H" SpeedStars="2" DamageStars="4" AdditionalSubskillsCount="0" IconPrefix="Club2H">
+		<RelatedRecipe Value="ITEM_REC-CLUB_2H"/>
+
+		<SubskillCollection EssenceQuality="Gray">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+		<SubskillCollection EssenceQuality="Essence">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<Subskill Value="SUBSKILL-CLUB_DAMAGE_ALL_ON_ATTACK"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<Subskill Value="SUBSKILL-CLUB_DAMAGE_ALL_ON_ATTACK"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<Subskill Value="SUBSKILL-CLUB_DAMAGE_ALL_ON_ATTACK"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+		<SubskillCollection EssenceQuality="Ancient">
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<Subskill Value="SUBSKILL-CLUB_INSPIRE_AFTER_KILL"/>
+				<EssenceType Value="TAG-ESSENCE_STONE"/>
+				<EssenceType Value="TAG-ESSENCE_METAL"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<Subskill Value="SUBSKILL-CLUB_INSPIRE_AFTER_KILL"/>
+				<EssenceType Value="TAG-ESSENCE_LEATHER"/>
+				<EssenceType Value="TAG-ESSENCE_WOOD"/>
+			</SubskillEssenceType>
+			<SubskillEssenceType>
+				<Subskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+				<Subskill Value="SUBSKILL-CLUB_INSPIRE_AFTER_KILL"/>
+				<EssenceType Value="TAG-ESSENCE_GEM"/>
+				<EssenceType Value="TAG-ESSENCE_BONE"/>
+			</SubskillEssenceType>
+		</SubskillCollection>
+
+	</RAT-CLUB_2H>
+</PROCEDURAL_ITEM_DATA>

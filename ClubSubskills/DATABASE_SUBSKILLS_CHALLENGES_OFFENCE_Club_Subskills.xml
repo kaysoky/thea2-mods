@@ -1,0 +1,36 @@
+﻿<SUBSKILLS_CHALLENGES>
+
+	<SUBSKILL-CLUB_REDIRECT_ATTACK Delay="0.0" Animation="BloodyHit2" Sound="AttackClub1H">
+		<DescriptionInfo Name="DES_SUBSKILL_CLUB_REDIRECT_ATTACK" Description="DES_SUBSKILL_CLUB_REDIRECT_ATTACK_DES" IconName="SubskillLineCharge"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_DAMAGE" DamageIcon="TAG-DAMAGE_LIFE_LEECH_SHIELD_LEECH_ANCIENT" TargetIcon="TAG-TARGET_SELECTED_ALLY" AttackInfo="{SCRIPT:SI_Damage}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="TRUE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="OnDamage"/>
+			<TriggerScript ScriptName="Tri_OnDamage"/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_FriendlyTarget"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Chosen"/>
+		</Targets>
+		<Activation ScriptName="Act_DamageLifeLeechShieldLeechAncient"/>
+		<ChallengeType Value="TypePhysical"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<MainAtt Amount="0.3" Tag="TAG-STRENGTH"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+			<MainAtt Amount="0.4" Tag="TAG-STRENGTH"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="20.0">
+			<MainAtt Amount="0.5" Tag="TAG-STRENGTH"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="30.0">
+			<MainAtt Amount="0.6" Tag="TAG-STRENGTH"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="40.0">
+			<MainAtt Amount="0.7" Tag="TAG-STRENGTH"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="50.0">
+			<MainAtt Amount="0.8" Tag="TAG-STRENGTH"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-CLUB_REDIRECT_ATTACK>
+
+</SUBSKILLS_CHALLENGES>
