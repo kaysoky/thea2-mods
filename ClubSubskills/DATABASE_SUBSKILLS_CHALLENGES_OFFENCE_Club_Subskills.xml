@@ -11,7 +11,7 @@
 			<TargetScript ScriptName="Trg_FriendlyTarget"/>
 			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Chosen"/>
 		</Targets>
-		<Activation ScriptName="Act_DamageLifeLeechShieldLeechAncient"/>
+		<Activation ScriptName="Act_LifeAndShieldLeech_Ancient"/>
 		<ChallengeType Value="TypePhysical"/>
 		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
 			<MainAtt Amount="0.3" Tag="TAG-STRENGTH"/>
