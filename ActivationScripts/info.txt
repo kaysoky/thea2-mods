@@ -2,20 +2,17 @@
 
 <ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Activation Scripts" Graphic="Activation.png" Visibility="0">
 
-<SCRIPT>Activation.cs</SCRIPT>
+<SCRIPT>ActivationScripts.cs</SCRIPT>
 
 This mod adds new Activation scripts to the base game but does not change any part of the game by itself.  Nothing in this mod will use the new scripts.
 
-Activation scripts are used when activating subskills and will modify game state.  Scripts are referred to by function name within XML blocks like the following:
-[code]
-\<Activation ScriptName="..."/\>
-[/code]
+Activation scripts are used when activating subskills in combat and will modify game state, like the HP of characters on the battlefield.
 
 These are the functions added:
 [table]
   [tr]
-    [th]Name[/th]
-    [th]Description[/th]
+    [th][b]Name[/b][/th]
+    [th][b]Description[/b][/th]
   [/tr]
   [tr]
     [td]Act_ShieldLeech_Essence[/td]

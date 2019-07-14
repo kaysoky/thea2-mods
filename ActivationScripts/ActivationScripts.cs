@@ -1,6 +1,8 @@
+﻿using UnityEngine;
 using DBDef;
 using System.Collections.Generic;
 using TheHoney;
+using Thea2;
 using Thea2.Common;
 using Thea2.General;
 
@@ -117,7 +119,7 @@ namespace GameScript
         // TODO: I'm not sure if this needs a special import to reference the built-in script.
         static public object Act_LifeAndShieldLeech_Essence(NetBattlefield bf, NetQueueItem q, List<NetQueueItem> stack, List<NetQueueItem> previousItems, MHRandom random)
         {
-            Act_DrainHealthEssence(bf, q, stack, previousItems, random);
+            // Act_DrainHealthEssence(bf, q, stack, previousItems, random);
             return Act_ShieldLeech_Essence(bf, q, stack, previousItems, random);
         }
 
