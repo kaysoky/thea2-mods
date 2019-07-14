@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Activation Scripts" Graphic="Activation.png" Visibility="0">
+
+<SCRIPT>Activation.cs</SCRIPT>
+
+This mod adds new Activation scripts to the base game but does not change any part of the game by itself.  Nothing in this mod will use the new scripts.
+
+Activation scripts are used when activating subskills and will modify game state.  Scripts are referred to by function name within XML blocks like the following:
+[code]
+\<Activation ScriptName="..."/\>
+[/code]
+
+These are the functions added:
+[table]
+  [tr]
+    [th]Name[/th]
+    [th]Description[/th]
+  [/tr]
+  [tr]
+    [td]Act_ShieldLeech_Essence[/td]
+    [td]Attacker gains 50% of damage as extra shields.[/td]
+  [/tr]
+  [tr]
+    [td]Act_ShieldLeech_Ancient[/td]
+    [td]Attacker gains 100% of damage as extra shields.[/td]
+  [/tr]
+  [tr]
+    [td]Act_LifeLeech_Ancient[/td]
+    [td]Attacker gains 80% of damage as health. Note: Built-in script Act_DrainHealthAncient does not appear to be 80% life leech.[/td]
+  [/tr]
+  [tr]
+    [td]Act_LifeAndShieldLeech_Essence[/td]
+    [td]Uses built-in script Act_DrainHealthEssence + and custom script Act_ShieldLeech_Essence.[/td]
+  [/tr]
+  [tr]
+    [td]Act_LifeAndShieldLeech_Ancient[/td]
+    [td]Uses custom scripts Act_LifeLeech_Ancient and Act_ShieldLeech_Ancient.[/td]
+  [/tr]
+[/table]
+
+</ModInfo>
